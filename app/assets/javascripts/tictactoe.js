@@ -1,6 +1,7 @@
 let turn = 0
 let currentGame = 0
 $(document).ready(() => attachListeners())
+
 function player() {
 
 }
