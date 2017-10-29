@@ -1,5 +1,8 @@
+let turn = 0
+let currentGame = 0
+$(document).ready(() => attachListeners())
 function player() {
-  
+
 }
 
 function updateState() {
@@ -7,19 +10,19 @@ function updateState() {
 }
 
 function setMessage(string) {
-  
+
 }
 
 function checkWinner() {
-  
+
 }
 
 function doTurn() {
-  
+
 }
 
 function attachListeners() {
-  
+
 }
 
 
