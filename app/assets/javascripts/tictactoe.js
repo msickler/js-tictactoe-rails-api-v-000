@@ -26,3 +26,18 @@ function onPrevious() {
     });
   });
 }
+
+function onSubmit() {
+  $(function () {
+    $('form').submit(function(event) {
+      //prevent form from submitting the default way
+      event.preventDefault();
+      var values = $(this).serialize();
+      var posting = $.post('/games', values);
+      posting.done(function(data) {
+        var game = data;
+        $("#postStatus").text(post["status"]);
+        });
+    });
+  });
+}
