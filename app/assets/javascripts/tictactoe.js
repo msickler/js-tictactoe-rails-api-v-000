@@ -1,10 +1,37 @@
+function player() {
+  
+}
+
+function updateState() {
+
+}
+
+function setMessage(string) {
+  
+}
+
+function checkWinner() {
+  
+}
+
+function doTurn() {
+  
+}
+
+function attachListeners() {
+  
+}
+
+
+
+
 $('#save').click(() => saveGame())
 $('#previous').click(() => previousGame())
 $('#clear').click(() => clearGame())
 
 
 function saveGame() {
-  
+
 }
 
 function previousGame() {
